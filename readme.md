@@ -44,11 +44,11 @@ Install everthing else
 Inside "cmd.exe" navigate to where you compied the files from this repo
 With the activated virtual directory, run
   
-"python -m pip install pip -U"
+    python -m pip install pip -U
 
 then
 
-"python -m pip install -r requirements.txt"
+    python -m pip install -r requirements.txt
 
 
 Start Jupyter
@@ -63,7 +63,7 @@ It keeps the original window open, so if you find any library missing, you can p
 
 Offline use
 -----------
-This is where pip really shines - you can install almost anything with no internet or behind company firewalls!  
+This is where ✨ pip ✨ really shines - you can install almost anything with no internet or behind company firewalls!  
   
 Copy everything needed onto a USB drive with the command
   
