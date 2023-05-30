@@ -53,12 +53,12 @@ then
 
 Start Jupyter
 ----------------------
-Inside "cmd.exe", with the still activated virtual directory  
+Inside "cmd.exe", with the still activated virtual directory run 
   
-    run "start python -m jupyterlab"
+    start python -m jupyterlab
 
-This first opens a new cmd window and then starts Jupyterlab in your browser.
-It keeps the original window open, so if you find any library missing, you can pip install it right away!
+The *start* command opens a new cmd window and then starts Jupyterlab in your browser.
+This keeps the original window open, so if you find any library missing, you can pip install it right away!
   
 
 Offline use
