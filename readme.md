@@ -43,8 +43,11 @@ Install everthing else
 ----------------------
 Inside "cmd.exe" navigate to where you compied the files from this repo
 With the activated virtual directory, run
+  
 "python -m pip install pip -U"
+
 then
+
 "python -m pip install -r requirements.txt"
 
 
