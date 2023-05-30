@@ -11,6 +11,8 @@ It also installs a bunch of other things, from pytest to FastAPI - mainly everyt
 👉 You think some library is missing? Cool! Please open an issue.
 
 
+# Instructions #
+
 Install Python
 --------------
 Get it from https://www.python.org/ - currently it's Version 3.11.3
