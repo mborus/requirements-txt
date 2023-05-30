@@ -1,5 +1,5 @@
 Python Jupyterlab and friends "requirements.txt" for Windows 10
-####################################################
+-----------------------------------------------------------------
 
 This repo allows you to quickly setup a jupyter lab environment on Windows
 from a requirements.txt file with pip.
