@@ -2,7 +2,7 @@ Python Jupyterlab and friends "requirements.txt" for Windows 10
 -----------------------------------------------------------------
 
 This repo allows you to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
-It also installs a bunch of other things, from pytest to FastAPI - mainly everything I need to have with me to setup a Python environment offline.
+It also installs a bunch of other things, from well known modules like pytest and FastAPI to underexposed gems like ftfy, glom or tqdm - mainly everything I need to have with me to setup a Python environment offline.
 
 👉 This repo is mostly meant for my own use, your milage may vary
 
@@ -56,7 +56,8 @@ Start Jupyter
 Inside "cmd.exe", with the still activated virtual directory  
 run "start python -m jupyterlab"
 This first opens a new cmd window and then starts Jupyterlab in your browser.
-
+It keeps the original window open, so if you find any library missing, you can pip install it right away!
+  
 
 Offline use
 -----------
@@ -66,3 +67,9 @@ python -m pip download -r requirements.txt
 Then later install from within that folder
 python -m pip install -r requirements.txt --no-index --find-links .
 
+
+Frozen version
+--------------
+The requirements.txt doesn't freeze the version numbers. This is good, because you will get the newest working versions, but also means this file can break any time. I plan to include a second, frozen requirements file at some later point.
+  
+  
