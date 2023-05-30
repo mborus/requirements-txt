@@ -54,18 +54,24 @@ then
 Start Jupyter
 ----------------------
 Inside "cmd.exe", with the still activated virtual directory  
-run "start python -m jupyterlab"
+  
+    run "start python -m jupyterlab"
+
 This first opens a new cmd window and then starts Jupyterlab in your browser.
 It keeps the original window open, so if you find any library missing, you can pip install it right away!
   
 
 Offline use
 -----------
+This is where pip really shines - you can install almost anything with no internet or behind company firewalls!  
+  
 Copy everything needed onto a USB drive with the command
-python -m pip download -r requirements.txt
+  
+    python -m pip download -r requirements.txt
 
 Then later install from within that folder
-python -m pip install -r requirements.txt --no-index --find-links .
+  
+    python -m pip install -r requirements.txt --no-index --find-links .
 
 
 Frozen version
