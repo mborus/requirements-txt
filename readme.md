@@ -29,7 +29,7 @@ Whereever you want it:
 
 - Open "cmd.exe".
 - Navigate with "cd" commands to where you want to create it
-- Run "py -3 -m venv <global_venv>" (where <global venv> stands for the name you want to give it)
+- Run "py -3 -m venv *global_venv*" (where *global_venv* stands for the name you want to give it)
 
 
 Activate the virtual directory
