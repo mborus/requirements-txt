@@ -34,7 +34,7 @@ Activate the virtual directory
 ------------------------------
 - Open "cmd.exe".
 - Navigate with "cd" commands into the virtual directory you created in the last step
-- run "Scripts/activate" to activate it (The names should autocomplete, type "S"-<Tab>-"a"-<Tab><Enter>)
+- run "Scripts/activate" to activate it (The names should autocomplete, type "S"-[Tab]-"a"-[Tab][Enter])
 
 
 Install everthing else
