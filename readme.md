@@ -1,13 +1,14 @@
 Python Jupyterlab and friends "requirements.txt" for Windows 10
 -----------------------------------------------------------------
 
-This repo allows you to quickly setup a jupyter lab environment on Windows
-from a requirements.txt file with pip.
+This repo allows you to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
+It also installs a bunch of other things, from pytest to FastAPI - mainly everything I need to have with me to setup a Python environment offline.
 
 👉 This repo is mostly meant for my own use, your milage may vary
 
 👉 Main reason why this exists: pip includes a download feature which allows convenient installations from a USB drive with no internet present
 
+👉 You think some library is missing? Cool! Please open an issue.
 
 
 Install Python
