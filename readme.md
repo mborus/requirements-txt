@@ -1,5 +1,5 @@
-Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10
-----------------------------------------------------------------------------
+# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10 #
+----------------------------------------------------------------------------------
 
 This repo allows you to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
 It also installs a bunch of other things, from well known modules like pytest and FastAPI to underexposed gems like ftfy, glom or tqdm - mainly everything I need to have with me to setup a Python environment offline.
@@ -15,7 +15,7 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 Install Python
 --------------
-Get it from https://www.python.org/ - currently it's Version 3.11.3
+Get it from https://www.python.org/ - currently it's version 3.11.3
 
 Install it for all users if you can, if not, just for you.
 
@@ -51,7 +51,7 @@ then
     python -m pip install -r requirements.txt
 
 
-Start Jupyter
+Start Jupyterlab
 ----------------------
 Inside "cmd.exe", with the still activated virtual directory run 
   
@@ -61,9 +61,9 @@ The *start* command opens a new cmd window and then starts Jupyterlab in your br
 This keeps the original window open, so if you find any library missing, you can pip install it right away!
   
 
-Offline use
------------
-This is where ✨ pip ✨ really shines - you can install almost anything with no internet or behind company firewalls!  
+❌📶 Offline use 
+-----------------
+This is where pip really shines - you can install almost anything with no internet or behind company firewalls!  
   
 Copy everything needed onto a USB drive with the command
   
@@ -74,8 +74,13 @@ Then later install from within that folder
     python -m pip install -r requirements.txt --no-index --find-links .
 
 
-Frozen version
---------------
-The requirements.txt doesn't freeze the version numbers. This is good, because you will get the newest working versions, but also means this file can break any time. I plan to include a second, frozen requirements file at some later point.
+🥶 Frozen version
+------------------
+The requirements.txt doesn't freeze the version numbers. 
+By not freezing the requirements you will always get the newest working versions possible. This also means that installing can break when dependencies change.
+Because of that there's also a frozen version of the requirements.txt file called requirements_frozen.txt. Which "works on my machine"™️.
+
+👉 The frozen file is a fallback and may not always be up to date!
+
   
   
