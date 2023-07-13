@@ -1,4 +1,4 @@
-# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10 #
+# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10 and/or WSL2 #
 ----------------------------------------------------------------------------------
 
 This repo allows you to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
