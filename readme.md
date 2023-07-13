@@ -1,5 +1,4 @@
 # Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10 and/or WSL2 #
-----------------------------------------------------------------------------------
 
 This repo allows you to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
 It also installs a bunch of other things, from well known modules like pytest and FastAPI to underexposed gems like ftfy, glom or tqdm - mainly everything I need to have with me to setup a Python environment offline.
