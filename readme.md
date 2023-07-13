@@ -13,13 +13,15 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 # Instructions #
 
-Install Python
---------------
+Install Python 3.11
+---------------------
 Get it from https://www.python.org/ - currently it's version 3.11.4
 
 Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
+
+👉 When Python 3.12 is released, it will take a while for libraries to catch up
 
 
 Create a virtual directory
@@ -29,7 +31,11 @@ Whereever you want it:
 
 - Open "cmd.exe".
 - Navigate with "cd" commands to where you want to create it
-- Run "py -3 -m venv *global_venv*" (where *global_venv* stands for the name you want to give it)
+- Type:
+
+    py -3 -m venv *global_venv*
+
+(where *global_venv* stands for the name you want to give it)
 
 
 Activate the virtual directory
@@ -59,6 +65,12 @@ Inside "cmd.exe", with the still activated virtual directory run
 
 The *start* command opens a new cmd window and then starts Jupyterlab in your browser.
 This keeps the original window open, so if you find any library missing, you can pip install it right away!
+
+
+WLS2/Ubuntu use
+--------------------
+As of today, the script also works with the Windows Subsystem for Linux to install everything.
+You will run into smaller problems, though. For example starting Jupyter will throw a confusing error instead of starting your browser and you need to manually paste the link into your browser.
   
 
 ❌📶 Offline use 
@@ -83,4 +95,5 @@ Because of that there's also a frozen version of the requirements.txt file calle
 👉 The frozen file is a fallback and may not always be up to date!
 
   
-  
+
+
