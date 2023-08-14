@@ -47,3 +47,4 @@ pytz
 scrapy
 gracy
 pyzipper
+dateparser
