@@ -33,7 +33,7 @@ mapclassify
 ftfy
 bokeh
 typer
-polars
+# polars
 mypy
 coverage
 rich 
