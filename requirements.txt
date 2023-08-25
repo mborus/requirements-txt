@@ -33,7 +33,6 @@ mapclassify
 ftfy
 bokeh
 typer
-# polars
 mypy
 coverage
 rich 
@@ -48,3 +47,4 @@ scrapy
 gracy
 pyzipper
 dateparser
+polars
