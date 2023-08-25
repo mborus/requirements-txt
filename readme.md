@@ -68,7 +68,7 @@ This keeps the original window open, so if you find any library missing, you can
 
 WLS2/Ubuntu use
 --------------------
-As of today, the script also works with the Windows Subsystem for Linux to install everything.
+The script should also work with the Windows Subsystem for Linux to install everything.
 You will run into smaller problems, though. For example starting Jupyter will throw a confusing error instead of starting your browser and you need to manually paste the link into your browser.
   
 
@@ -83,6 +83,10 @@ Copy everything needed onto a USB drive with the command
 Then later install from within that folder
   
     python -m pip install -r requirements.txt --no-index --find-links .
+
+👉 Don't forget to put the current Python installer on that drive!
+
+👉 You also may want to download pip so you have the newest version on the drive.
 
 
 🥶 Frozen version
