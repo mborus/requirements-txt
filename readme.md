@@ -20,7 +20,10 @@ Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
 
-👉 When Python 3.12 is released, it will take a while for libraries to catch up
+👉 Note: Python 3.12 for Windows just got released and it will take a while for libraries to catch up. 
+
+As soon as I switch to 3.12 for Jupyter, I'll add an alternative requirements.txt. I'll keep the 3.11 version until the geo libraries are fully supported.
+
 
 
 Create a virtual directory
