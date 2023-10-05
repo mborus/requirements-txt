@@ -14,7 +14,7 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 Install Python 3.11
 ---------------------
-Get it from https://www.python.org/ - currently it's version 3.11.5
+Get it from https://www.python.org/ - currently it's version 3.11.6
 
 Install it for all users if you can, if not, just for you.
 
