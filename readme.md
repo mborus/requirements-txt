@@ -20,9 +20,7 @@ Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
 
-👉 Note: Python 3.12 for Windows just got released and it will take a while for libraries to catch up. 
-
-As soon as I switch to 3.12 for Jupyter, I'll add an alternative requirements.txt. I'll keep the 3.11 version until the geo libraries are fully supported.
+👉 Note: Python 3.12 for Windows recently got released and it will take a while for libraries to catch up. As of Nov 2023, `h3` and `aiohttp` are missing. If you can live without them, try the requirements_312_incomplete.txt on Python 3.12.0. I'll keep the 3.11 version until the geo libraries are fully supported.
 
 
 
