@@ -12,21 +12,21 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 # Instructions #
 
-Install Python 3.11
----------------------
-Get it from https://www.python.org/ - currently it's version 3.11.6
+Install Python 3.11 or 3.12
+---------------------------
+Get it from https://www.python.org/ - currently it's version 3.11.6 / 3.12.0
 
 Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
 
-👉 Note: Python 3.12 for Windows recently got released.
+👉 Note: As Python 3.12 for Windows recently got released:
 
 It will take a while for libraries to catch up. 
 
-As of Nov 2023, `h3` and `aiohttp` are missing. 
+As of Nov 2023, `h3` and `aiohttp` are not installing yet, the last one because of a `frozenlist` dependency. 
 
-If you can live without them, try the requirements_312_incomplete.txt on Python 3.12.0. 
+If you can live without them, try the requirements_312_incomplete.txt 
 
 I'll keep the 3.11 version until the geo libraries are fully supported.
 
