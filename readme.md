@@ -26,7 +26,7 @@ It will take a while for libraries to catch up.
 
 As of February 2024, `h3`is not installing yet.
 
-If you can live without them, try the requirements_312_incomplete.txt 
+If you can live without it, try the requirements_312_incomplete.txt 
 
 I'll keep the 3.11 version until the geo libraries are fully supported.
 
