@@ -48,3 +48,4 @@ gracy
 pyzipper
 dateparser
 polars
+uv
