@@ -14,7 +14,7 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 Install Python 3.11 or 3.12
 ---------------------------
-Get it from https://www.python.org/ - currently it's version 3.11.6 / 3.12.0
+Get it from https://www.python.org/ - currently it's version 3.11.8 / 3.12.2
 
 Install it for all users if you can, if not, just for you.
 
@@ -24,7 +24,7 @@ Go with the defaults. (Do not select to add it on the Path, it's not necessary)
 
 It will take a while for libraries to catch up. 
 
-As of Nov 2023, `h3` and `aiohttp` are not installing yet, the last one because of a `frozenlist` dependency. 
+As of February 2024, `h3`is not installing yet.
 
 If you can live without them, try the requirements_312_incomplete.txt 
 

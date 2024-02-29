@@ -37,7 +37,7 @@ mypy
 coverage
 rich 
 textual
-# aiohttp
+aiohttp
 cherrypy
 nanoid
 pgeocode
