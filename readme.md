@@ -5,6 +5,8 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 👉 This repo is mostly meant for my own use, your milage may vary
 
+👉 This repo should work on Windows 11, but I currently have no Windows 11 machine to test.
+
 👉 Main reason why this exists: pip includes a download feature which allows convenient installations from a USB drive with no internet present
 
 👉 You think some library is missing? Cool! Please open an issue.
@@ -12,24 +14,13 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 # Instructions #
 
-Install Python 3.11 or 3.12
+Install Python 3.12
 ---------------------------
-Get it from https://www.python.org/ - currently it's version 3.11.8 / 3.12.2
+Get it from https://www.python.org/ - as of 2024-03-11 it's version 3.12.2.
 
 Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
-
-👉 Note: As Python 3.12 for Windows recently got released:
-
-It will take a while for libraries to catch up. 
-
-As of February 2024, `h3`is not installing yet.
-
-If you can live without it, try the requirements_312_incomplete.txt 
-
-I'll keep the 3.11 version until the geo libraries are fully supported.
-
 
 
 Create a virtual directory
@@ -79,7 +70,7 @@ WLS2/Ubuntu use
 --------------------
 The script should also work with the Windows Subsystem for Linux to install everything.
 You will run into smaller problems, though. For example starting Jupyter will throw a confusing error instead of starting your browser and you need to manually paste the link into your browser.
-  
+
 
 ❌📶 Offline use 
 -----------------
@@ -106,6 +97,6 @@ Because of that there's also a frozen version of the requirements.txt file calle
 
 👉 The frozen file is a fallback and may not always be up to date!
 
-  
+👉 Note: The Ubuntu frozen is still on Python 3.11 and needs updating  
 
 
