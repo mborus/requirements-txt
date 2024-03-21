@@ -5,7 +5,7 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 👉 This repo is mostly meant for my own use, your milage may vary
 
-👉 This repo should work on Windows 11. It was successfully tested one, but I currently have no own Windows 11 machine. If you run into problems, please open an issue.
+👉 This repo should work on Windows 11. It was successfully tested once, but I currently have no own Windows 11 machine. If you run into problems, please open an issue.
 
 👉 Main reason why this exists: pip includes a download feature which allows convenient installations from a USB drive with no internet present
 
