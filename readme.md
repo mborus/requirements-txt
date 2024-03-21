@@ -1,11 +1,11 @@
-# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10 and/or WSL2 #
+# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10/11 and/or WSL2 #
 
 This repo allows you to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
 It also installs a bunch of other things, from well known modules like pytest and FastAPI to underexposed gems like ftfy, glom or tqdm - mainly everything I need to have with me to setup a Python environment offline.
 
 👉 This repo is mostly meant for my own use, your milage may vary
 
-👉 This repo should work on Windows 11, but I currently have no Windows 11 machine to test.
+👉 This repo should work on Windows 11. It was successfully tested one, but I currently have no own Windows 11 machine. If you run into problems, please open an issue.
 
 👉 Main reason why this exists: pip includes a download feature which allows convenient installations from a USB drive with no internet present
 
@@ -100,3 +100,6 @@ Because of that there's also a frozen version of the requirements.txt file calle
 👉 Note: The Ubuntu frozen is still on Python 3.11 and needs updating  
 
 
+Usage of uv instead of pip
+--------------------------
+Currently, uv doesn't support downloading. It does support installing from the downloads. To speed up things, your can manually install uv at the destination before using uv to install the rest.
