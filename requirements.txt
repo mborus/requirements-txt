@@ -49,3 +49,5 @@ pyzipper
 dateparser
 polars
 uv
+watchdog
+tenacity
