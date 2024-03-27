@@ -97,8 +97,6 @@ Because of that there's also a frozen version of the requirements.txt file calle
 
 👉 The frozen file is a fallback and may not always be up to date!
 
-👉 Note: The Ubuntu frozen is still on Python 3.11 and needs updating  
-
 
 Usage of uv instead of pip
 --------------------------
