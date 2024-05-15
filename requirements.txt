@@ -52,3 +52,5 @@ uv
 watchdog
 tenacity
 waitress
+poetry
+pyenv
