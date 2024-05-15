@@ -51,3 +51,4 @@ polars
 uv
 watchdog
 tenacity
+waitress
