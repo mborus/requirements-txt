@@ -54,3 +54,5 @@ tenacity
 waitress
 poetry
 pyenv
+stamina
+flask
