@@ -55,3 +55,4 @@ waitress
 poetry
 stamina
 flask
+faker
