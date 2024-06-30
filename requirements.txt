@@ -56,3 +56,5 @@ poetry
 stamina
 flask
 faker
+reportlab
+pypdf2
