@@ -58,3 +58,4 @@ flask
 faker
 reportlab
 pypdf2
+icalendar
