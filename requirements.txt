@@ -59,3 +59,4 @@ faker
 reportlab
 pypdf2
 icalendar
+xml2dict
