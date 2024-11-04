@@ -14,9 +14,9 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 # Instructions #
 
-Install Python 3.12
+Install Python 3.13
 ---------------------------
-Get it from https://www.python.org/ - as of 2024-10-01 it's version 3.12.7.
+Get it from https://www.python.org/ - as of 2024-11-04 it's version 3.13.0.
 
 Install it for all users if you can, if not, just for you.
 
@@ -66,10 +66,15 @@ The *start* command opens a new cmd window and then starts Jupyterlab in your br
 This keeps the original window open, so if you find any library missing, you can pip install it right away!
 
 
-WLS2/Ubuntu use
+WSL2/Ubuntu use
 --------------------
 The script should also work with the Windows Subsystem for Linux to install everything.
+
+I assume you have a working Python install for Python3.13 that can create venvs and use pip to install.
+
 You will run into smaller problems, though. For example starting Jupyter will throw a confusing error instead of starting your browser and you need to manually paste the link into your browser.
+
+Note: I tested it on WSL2/Ubuntu 20.04.06 LTS, installed using pip. 
 
 
 ❌📶 Offline use 
@@ -100,4 +105,4 @@ Because of that there's also a frozen version of the requirements.txt file calle
 
 Usage of uv instead of pip
 --------------------------
-Currently, uv doesn't support downloading. It does support installing from the downloads. To speed up things, your can manually install uv at the destination before using uv to install the rest.
+As of 2024-11-04, uv doesn't support downloading. It does support installing from the downloads. To speed up things a lot, your can manually install uv at the destination before using uv to install the rest. It worked great on Windows, on WSL2/Ubuntu uv crashed with a thread error.
