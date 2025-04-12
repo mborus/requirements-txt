@@ -16,7 +16,7 @@ It also installs a bunch of other things, from well known modules like pytest an
 
 Install Python 3.13
 ---------------------------
-Get it from https://www.python.org/ - as of 2024-11-04 it's version 3.13.0.
+Get it from https://www.python.org/ - as of 2025-04-12 it's version 3.13.3.
 
 Install it for all users if you can, if not, just for you.
 
