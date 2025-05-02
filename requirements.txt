@@ -60,3 +60,5 @@ reportlab
 pypdf2
 icalendar
 xmltodict
+pymupdf
+ruff
