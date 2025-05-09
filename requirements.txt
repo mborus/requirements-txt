@@ -59,6 +59,7 @@ faker
 reportlab
 pypdf2
 icalendar
+aiosmtpd
 xmltodict
 pymupdf
 ruff
