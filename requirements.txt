@@ -63,3 +63,5 @@ aiosmtpd
 xmltodict
 pymupdf
 ruff
+mitmproxy
+pydantic-ai
