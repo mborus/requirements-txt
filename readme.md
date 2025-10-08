@@ -1,11 +1,11 @@
-# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 10/11 and/or WSL2 #
+# Python Jupyterlab, Geopython and friends "requirements.txt" for Windows 11 and/or WSL2 #
 
 This repo allows me (and you) to quickly setup a Jupyterlab with Geopandas environment on Windows from a requirements.txt file with pip. 
 It also installs a bunch of other things, from well known modules like pytest and FastAPI to underexposed gems like ftfy, glom or tqdm - mainly everything I need to have with me to setup a Python environment offline.
 
 👉 This repo is mostly meant for my own use, your milage may vary
 
-👉 This repo should work on Windows 11. It was successfully tested once, but I currently have no own Windows 11 machine. If you run into problems, please open an issue.
+👉 This repo works on Windows 11. It is no longer tested for Windows 10
 
 👉 Main reason why this exists: pip includes a download feature which allows convenient installations from a USB drive with no internet present
 
@@ -21,6 +21,8 @@ Get it from https://www.python.org/ - as of 2025-04-12 it's version 3.13.3.
 Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
+
+👉 Python 3.14 was released 2025-10-08. Since not all libraries support it yet, there's a `requirements_314.txt` with what's installable with the others commented out. Over the next weeks I'll retry and add back what works.
 
 
 Create a virtual directory
