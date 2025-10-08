@@ -22,7 +22,7 @@ Install it for all users if you can, if not, just for you.
 
 Go with the defaults. (Do not select to add it on the Path, it's not necessary)
 
-👉 Python 3.14 was released 2025-10-08. Since not all libraries support it yet, there's a `requirements_314.txt` with what's installable with the others commented out. Over the next weeks I'll retry and add back what works.
+👉 Python 3.14 was released 2025-10-07. Since not all libraries support it yet, there's a `requirements_314.txt` with what's installable with the others commented out. Over the next weeks I'll retry and add back what works.
 
 
 Create a virtual directory
