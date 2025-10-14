@@ -65,3 +65,4 @@ pymupdf
 ruff
 mitmproxy
 pydantic-ai
+pdbpp
