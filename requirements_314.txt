@@ -52,7 +52,7 @@ uv
 watchdog
 tenacity
 waitress
-# poetry
+poetry
 stamina
 flask
 faker
@@ -65,3 +65,4 @@ pymupdf
 ruff
 # mitmproxy
 # pydantic-ai
+pdbpp
